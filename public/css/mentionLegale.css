@@ -1,0 +1,18 @@
+.mention{
+	margin-right: 10%;
+	margin-left: 10%;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+	border: black 1px solid;
+	box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+    font-size: 90%;
+    background-color: rgb(157, 192, 249);
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+body{
+	background-color: lightblue;
+	margin: 0px;
+}

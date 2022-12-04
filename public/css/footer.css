@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+footer {
+    width: 100vw;
+    background-color: rgb(67, 67, 67);
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    /*overflow: -moz-hidden-unscrollable;*/
+    overflow: hidden;
+}
+
+
+footer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.liens {
+    width: 30em;
+}
+
+.liens > div {
+    padding: 20px;
+}
+
+.liens > div > a:hover {
+    color: rgb(157, 157, 225);
+    font-size: 100%;
+
+}
+
+.footer > a {
+    text-decoration: none;
+}
+
+.pas_liens {
+    width: 30em;
+}
+
+.pas_liens > div {
+    padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	footer {
+        height: 7em;
+    }
+}

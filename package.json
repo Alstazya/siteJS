@@ -1,0 +1,29 @@
+{
+  "name": "nuitdelinfo",
+  "version": "1.0.0",
+  "description": "Nuit de l'info",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alstazya/siteJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alstazya/siteJS/issues"
+  },
+  "homepage": "https://github.com/Alstazya/siteJS#readme",
+  "dependencies": {
+    "amazejs": "^1.0.5",
+    "discord.js": "^14.7.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "serve-favicon": "^2.5.0",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.2"
+  }
+}

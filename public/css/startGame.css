@@ -1,0 +1,23 @@
+body{
+	background-color: lightblue;
+    margin: 0px;
+}
+
+.canv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#valider > p > a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+

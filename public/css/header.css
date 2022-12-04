@@ -1,0 +1,22 @@
+header {
+    /*background-color: rgb(117, 191, 195);*/
+    background-color: rgb(100, 164, 167);
+    height: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 60px;
+}
+
+header > div {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header > div > p {
+    font-size: 75px;
+}
+
+.imageSida {
+    width: 100%;
+    height: 5em;
+}

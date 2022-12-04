@@ -1,0 +1,16 @@
+.perso{
+	margin-right: 15%;
+	margin-left: 15%;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+	border: black 1px solid;
+	box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+    font-size: 130%;
+    background-color: rgb(157, 192, 249);
+}
+
+body{
+	background-color: lightblue;
+	margin: 0px;
+}

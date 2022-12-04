@@ -1,0 +1,36 @@
+header
+{
+    width: 100vw;
+    height: 5em;
+    background-color: rgb(67, 67, 67);
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    text-decoration:none;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+a:hover{
+    animation: bigger 1s infinite;
+    animation-direction: alternate;
+    /*font-size: 80%*/;
+}
+
+img
+{
+    padding-top: 1em;
+    width: 3em;
+}
+
+@keyframes bigger {
+    to{
+        transform: scale(1.2);
+    }
+
+}
